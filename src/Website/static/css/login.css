@@ -1,0 +1,44 @@
+.login-wrapper{
+    width: 40%;
+    margin: 50px auto;
+    text-align:center;
+     border: 3px solid #f1f1f1;
+    
+}
+
+.login form{
+    padding: 40px;
+}
+
+.login input[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add a hover effect for buttons */
+.login button:hover {
+    opacity: 0.8;
+}
+
+
+.login .forgot-password{
+    background-color:#f1f1f1;
+    text-align: right;
+    padding: 10px;
+}
+
+
+
