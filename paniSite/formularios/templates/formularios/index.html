@@ -1,0 +1,10 @@
+{% if listaIndicadores %}
+    <ul>
+    {% for indicador in listaIndicadores %}
+        <li><a href="/formularios/{{ indicador.id }}/">{{ indicador.indicador_text }}</a></li>
+        <li><a href="{% url 'formularios:grafico' indicador.id %}">{{ indicador.indicador_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No hay indicadores.</p>
+{% endif %}

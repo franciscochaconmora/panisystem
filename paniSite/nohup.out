@@ -1,0 +1,5 @@
+[30/Sep/2017 19:43:46] "GET / HTTP/1.1" 200 1716
+Not Found: /favicon.ico
+[30/Sep/2017 19:43:46] "GET /favicon.ico HTTP/1.1" 404 1996
+Not Found: /formularios
+[30/Sep/2017 19:44:30] "GET /formularios HTTP/1.1" 404 1996
